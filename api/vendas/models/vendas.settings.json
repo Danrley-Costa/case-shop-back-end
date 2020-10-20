@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendas",
+  "info": {
+    "name": "Vendas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nm_produto": {
+      "type": "string"
+    },
+    "nm_personalizado": {
+      "type": "string"
+    },
+    "referencia": {
+      "type": "string"
+    },
+    "modelo": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
